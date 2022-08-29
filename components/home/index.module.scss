@@ -1,0 +1,13 @@
+.homeWrap {
+  padding: 16px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+}

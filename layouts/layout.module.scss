@@ -1,0 +1,27 @@
+.layout {
+  background-color: white;
+}
+
+@mixin layout {
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+$borderColor: 0.5px solid #eaeaea;
+
+.headerWrap {
+  border-bottom: $borderColor;
+  .header {
+    @include layout;
+    height: 60px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.main {
+  @include layout;
+  position: relative;
+  background-color: #f8f8f9;
+}
